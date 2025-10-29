@@ -1,0 +1,95 @@
+You will receive a text prompt intended for image generation. Your task is to extract the key points from this text as individual key points for subsequent text–image alignment evaluation.
+
+The key point categories are:
+[Time], [Location], [Character], [Character Relationship], [Event], [Event Causal Relationship], [Character Mental State].
+
+Important: 
+- The key points extracted from the prompt should contain clear visual clues, rather than information that cannot be expressed in the image generated from the prompt. For example, in the description below, "It is Weekend." is a valid key point, whereas "It is Saturday afternoon" is not, because the prompt only contains the clue "Weekend Special Discount Day" indicating "Weekend," without any explicit visual cue for "Saturday afternoon."
+- Each key point should explicitly specify the character or object it refers to, and pronouns should be avoided.
+- Each key point must be expressed as a complete sentence, not just a noun or short phrase. For example, use "There is a boy." instead of simply "boy".
+- If there is no valid key point for a certain category, the model should output "None" for that category.
+
+Output must strictly follow this format:
+[Time]
+1. ...
+2. ...
+(or "None" if no valid key point)
+
+[Location]
+1. ...
+2. ...
+(or "None" if no valid key point)
+
+[Character]
+1. ...
+2. ...
+(or "None" if no valid key point)
+
+[Character Relationship]
+1. ...
+2. ...
+(or "None" if no valid key point)
+
+[Event]
+1. ...
+2. ...
+(or "None" if no valid key point)
+
+[Event Causal Relationship]
+1. ...
+2. ...
+(or "None" if no valid key point)
+
+[Character Mental State]
+1. ...
+2. ...
+(or "None" if no valid key point)
+
+Example:
+
+A bustling grocery store during a Saturday afternoon forms the backdrop. A middle-aged man in a security guard uniform is sprinting towards the entrance, his gaze fixed on a commotion unfolding before him. At the center of the chaos is a young girl, perhaps 10 years old, her hat askew and shopping bag thrown to the floor, scattering apples across the aisle. She is grasping her little brother's hand tightly; the boy is clutching a teddy bear and looks scared. Ahead of them is a teenage boy holding a box of cookies, who just slipped them into his backpack. His face shows surprise and determination. The young girl is pointing at him, signaling the theft, while the security guard moves swiftly to intercept. Other shoppers are turning their heads, some whispering in disbelief, while an elderly woman near the check-out counter shakes her head in disapproval. A store sign overhead reads "Weekend Special Discount Day," adding urgency to the unfolding events as everyone is more alert to the happenings around them. The image captures a moment of surprise, fear, and duty, as the security guard tries to restore order.
+
+The extracted key points are:
+
+[Time]
+1. It is the weekend.
+
+[Location]
+1. The scene takes place in a bustling grocery store.
+
+[Character]
+1. There is a middle-aged man in a security guard uniform.
+2. There is a young girl with her hat askew.
+3. There is a little boy clutching a teddy bear.
+4. There is a teenage boy holding a box of cookies.
+5. There are some shoppers turning their heads and whispering.
+6. There is an elderly woman near the checkout counter.
+
+[Character Relationship]
+1. The young girl and the little boy are siblings.
+
+[Event]
+1. The security guard sprints toward the entrance, his gaze fixed on the commotion.
+2. The young girl’s shopping bag falls, scattering apples across the aisle.
+3. The young girl grasps her little brother’s hand tightly.
+4. The little brother clutches his teddy bear.
+5. The teenage boy slips a box of cookies into his backpack.
+6. The young girl points at the teenage boy, signaling the theft.
+7. The security guard moves swiftly to intercept the thief.
+8. Other shoppers turn their heads and whisper.
+9. An elderly woman shakes her head in disapproval.
+10. A store sign reads “Weekend Special Discount Day.”
+
+[Event Causal Relationship]
+1. Because the teenage boy is stealing cookies, the young girl points at him.
+2. Because the teenage boy is stealing cookies and the young girl points, the security guard rushes to intercept.
+3. Because the shopping bag is dropped, apples scatter across the aisle.
+4. Because of the theft, shoppers react with whispers and disapproval.
+
+[Character Mental State]
+1. The security guard feels dutiful and urgent.
+2. The young girl feels determined and alarmed.
+3. The little brother feels scared.
+4. The teenage boy feels surprised and determined.
+5. The shoppers feel disbelieving.
+6. The elderly woman feels disapproving.
