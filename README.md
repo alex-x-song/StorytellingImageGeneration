@@ -9,3 +9,17 @@ An image can convey a compelling story by presenting rich, logically connected v
 ## StorytellingPainter Pipeline
 
 ![StorytellingPainter Pipeline](pipeline.png)
+
+Use the following command to generate 100 stories and their corresponding images in the CoR-Guided mode, with GPT-4o as the Storyteller model and GPT-Image-1 as the Painter model.
+
+```python
+python storytellingpainter_pipeline.py \
+    --llm_name="gpt-4o" \
+    --story_gen_mode="cor_guided" \
+    --img_gen_model_name="gpt-image-1" \
+    --N=100 \
+    --output_dir="path/to/output_dir" \
+    --function="story_img_gen" \
+    --story_pool_name="cogbench_test" \
+    --llm_temperature=1.0
+```
