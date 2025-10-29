@@ -1,0 +1,25 @@
+Please imagine an image that tells a story in a single moment. The story portrayed in the image may occur at a special time and a special location. Some characters in the image may have special roles, and there may be relationships between them. More importantly, some events are happening, and there are causal relationships between these events. Based on the unfolding events, the characters also display a range of diverse emotions.
+
+Below is a further explanation of the key elements mentioned in the requirements above:
+
+- [Special Time]: A special date or a specific moment, for example, Christmas, Thanksgiving, 3:00 AM, etc.
+- [Special Location]: A specific location, such as a school, a grocery store, or a baseball field.
+- [Character Role]: The roles of characters, such as police officer, teacher, firefighter, etc.
+- [Character Relationship]: The relationships between characters. For example, mother and son relationship, romantic couple, etc.
+- [Event]: The events, for example, two boys stealing cookies from a cupboard. Note that unexpected events, such as falling, can sometimes enhance the storytelling of an image.
+- [Events Causal Relationship]: The causal relationships between events. For example, because the boy is doodling on the wall, his mother is scolding him.
+- [Mental State]: The mental states of characters, such as happiness, anger, sadness, etc.
+
+These key elements are sometimes conveyed through **visual clues** in the image. For example:
+
+- A "Christmas tree" can convey the special time of Christmas.
+- A road sign that says "Slow Down School Zone" can convey that the location is near a school.
+- A sign on the wall that reads "BASEBALL TODAY" can convey the event of a baseball game happening today.
+- A broken vase next to the boy can suggest that the boy broke the vase.
+
+Your task is to create an engaging story that can be conveyed through a single image. When generating the story, please follow the instructions below.
+- Use concise language to depict the imagined story as much as possible.
+    - Directly describe the story in the imagined image without including overly specific details that do not contribute to the story.
+    - Do not generate an additional summary that repeats the story content.
+- Generate a story that can be conveyed in a single image, capturing a specific moment. Avoid stories with a time sequence, such as a character performing one action and then another. For example, a boy climbing into the driver’s seat, then getting ready, and the fire engine roaring to life and speeding away.
+- Generate diverse rather than monotonous stories. Some of the key elements mentioned above, such as [Special Time] and [Special Location], are not necessarily required, as a story could take place at a very ordinary time and location. Therefore, please avoid limiting story diversity in an attempt to include all elements. For example, do not generate repetitive and monotonous Christmas-themed stories just to incorporate a [Special Time].
