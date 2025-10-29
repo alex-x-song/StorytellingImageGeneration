@@ -8,7 +8,9 @@ An image can convey a compelling story by presenting rich, logically connected v
 
 ## StorytellingPainter Pipeline
 
-![StorytellingPainter Pipeline](pipeline.png)
+<p align="center">
+  <img src="pipeline.png" alt="StorytellingPainter Pipeline" width="85%">
+</p>
 
 Use the following command to generate 100 stories and their corresponding images in the CoR-Guided mode, with GPT-4o as the Storyteller model and GPT-Image-1 as the Painter model.
 
