@@ -1,0 +1,9 @@
+A single image can tell an interesting story. For example, here is a story depicted in an image:
+
+*"In a cozy kitchen, three people—a boy, a girl, and their mother—are each caught up in their own moment. The boy, standing on a slightly tilted stool, stretches up toward a cookie jar on a high cabinet. His balance wavers, and he is just on the verge of falling. Meanwhile, his little sister stands beside him on the floor, eagerly reaching out to take the cookie he’s handing her. She presses a finger to her lips, a playful smile on her face, as if to remind him to stay quiet. The two children, brimming with excitement and mischief, are secretly stealing cookies right behind their mother. Their mother, dressed in an apron, stands sideways at the sink, washing dishes with a cloth. The faucet runs unchecked, water spilling over the edge and pooling onto the floor. Yet, lost in thought, she remains completely unaware—both of the overflowing sink and of the quiet, precarious scene unfolding just behind her."*
+
+Your task is to create an engaging story that can be conveyed through a single image. When generating the story, please follow the instructions below.
+- Use concise language to depict the imagined story as much as possible.
+    - Directly describe the story in the imagined image without including overly specific details that do not contribute to the story.
+    - Do not generate an additional summary that repeats the story content.
+- Generate a story that can be conveyed in a single image, capturing a specific moment. Avoid stories with a time sequence, such as a character performing one action and then another. For example, a boy climbing into the driver’s seat, then getting ready, and the fire engine roaring to life and speeding away.
